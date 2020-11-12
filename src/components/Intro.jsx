@@ -16,6 +16,7 @@ class Intro extends Component {
       backSpeed: 50,
       startDelay: 1000,
       cursorChar: "_",
+      loop: true,
     };
     this.typed = new Typed(this.el, options);
   }

@@ -38,8 +38,18 @@ function Nav() {
                       <span>About</span>
                     </Link>
                   </li>
+                  <li className={path === "/project" ? "active" : ""}>
+                    <Link to="/project">
+                      <span>Projects</span>
+                    </Link>
+                  </li>
+                  <li className={path === "/skill" ? "active" : ""}>
+                    <Link to="/skill">
+                      <span>Skills</span>
+                    </Link>
+                  </li>
                   <li className={path === "/contact" ? "active" : ""}>
-                    <Link to="/">
+                    <Link to="/contact">
                       <span>Contact</span>
                     </Link>
                   </li>
