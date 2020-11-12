@@ -10,7 +10,7 @@ function onBurger() {
 function Navbar() {
   const width = window.screen.availWidth;
   return (
-    <header className="pt-5">
+    <header className="pt-4">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
