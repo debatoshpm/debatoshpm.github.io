@@ -8,8 +8,17 @@ function Contact() {
       <Nav />
       <Navbar />
       <div className="m-5">
-        <div className="abouthead text-center">Contact</div>
+        <div className="abouthead text-center">Contact Me</div>
         <div className="aboutcontent text-center">...</div>
+      </div>
+      <div className="text-center restfont">
+        If you like my work and have some cool project to work on, just send me
+        direct message or contact me through social sites listed below.
+      </div>
+      <div className="text-center p-5">
+        <i class="fab fa-linkedin fa-7x mr-5 maincontent icn"></i>
+        <i class="fab fa-github-square fa-7x mr-5 maincontent icn"></i>
+        <i class="fas fa-envelope-square fa-7x maincontent icn"></i>
       </div>
     </React.Fragment>
   );

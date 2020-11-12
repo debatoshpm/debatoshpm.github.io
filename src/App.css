@@ -525,3 +525,7 @@ body.menu-show {
   z-index: 1001;
   position: relative;
 }
+
+.icn {
+  color: #ffffff;
+}
