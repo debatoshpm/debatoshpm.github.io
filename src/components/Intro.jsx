@@ -6,9 +6,10 @@ import Typed from "typed.js";
 class Intro extends Component {
   componentDidMount() {
     const strings = [
-      "Some <i>strings</i> are slanted",
-      "Some <strong>strings</strong> are bold",
-      "HTML characters &times; &copy;",
+      "Full Stack Developer",
+      "Coder",
+      "AI ML Enthusiast",
+      "Cloud Enthusiast",
     ];
     const options = {
       strings: strings,
