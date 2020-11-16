@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Navbar from "./Navbar";
+import Arrow from "./Arrow";
 
 export default function Project() {
   return (
@@ -50,6 +51,7 @@ export default function Project() {
           </div>
         </div>
       </div>
+      <Arrow value={{ to: "/skill" }} />
     </React.Fragment>
   );
 }

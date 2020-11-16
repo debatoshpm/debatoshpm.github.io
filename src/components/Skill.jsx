@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import Navbar from "./Navbar";
 import "./Skill.css";
 import Meter from "./Meter";
+import Arrow from "./Arrow";
 
 class Skill extends Component {
   render() {
@@ -47,7 +48,10 @@ class Skill extends Component {
               </p>
             </div>
           </div>
+          <Arrow value={{ to: "/contact" }} />
         </div>
+        <br />
+        <br />
       </React.Fragment>
     );
   }

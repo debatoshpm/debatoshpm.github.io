@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Nav from "./Nav";
 import Navbar from "./Navbar";
 import Typed from "typed.js";
+import Arrow from "./Arrow";
 
 class Intro extends Component {
   componentDidMount() {
@@ -41,6 +42,7 @@ class Intro extends Component {
             />
           </div>
         </div>
+        <Arrow value={{ to: "/about" }} />
       </React.Fragment>
     );
   }

@@ -6,6 +6,7 @@ function onCross() {
   $(".page").removeClass("menu-show");
   $(".plus").removeClass("hide");
   $(".cross").removeClass("show");
+  $("#button").removeClass("hide");
 }
 
 function Nav() {

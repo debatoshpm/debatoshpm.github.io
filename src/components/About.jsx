@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import Navbar from "./Navbar";
+import Arrow from "./Arrow";
 
 function About() {
   return (
@@ -14,6 +15,7 @@ function About() {
           Engineering College.
         </div>
       </div>
+      <Arrow value={{ to: "/project" }} />
     </React.Fragment>
   );
 }

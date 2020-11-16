@@ -16,9 +16,15 @@ function Contact() {
         direct message or contact me through social sites listed below.
       </div>
       <div className="text-center p-5 container">
-        <i class="fab fa-linkedin fa-7x ml-5 mr-5 maincontent icn"></i>
-        <i class="fab fa-github-square fa-7x ml-5 mr-5 maincontent icn"></i>
-        <i class="fas fa-envelope-square fa-7x ml-5 mr-5 maincontent icn"></i>
+        <a href="https://www.linkedin.com/in/debatosh-pal-majumder-235496189/">
+          <i class="fab fa-linkedin fa-7x ml-5 mr-5 maincontent icn"></i>
+        </a>
+        <a href="https://github.com/debatoshpm">
+          <i class="fab fa-github-square fa-7x ml-5 mr-5 maincontent icn"></i>
+        </a>
+        <a href="mailto:debatoshpm@gmail.com">
+          <i class="fas fa-envelope-square fa-7x icn maincontent ml-5 mr-5"></i>
+        </a>
       </div>
     </React.Fragment>
   );

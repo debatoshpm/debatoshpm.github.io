@@ -5,6 +5,7 @@ function onBurger() {
   $(".page").addClass("menu-show");
   $(".cross").addClass("show");
   $(".plus").addClass("hide");
+  $("#button").addClass("hide");
 }
 
 function Navbar() {
