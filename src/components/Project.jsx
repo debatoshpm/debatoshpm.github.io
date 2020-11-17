@@ -14,14 +14,14 @@ export default function Project() {
       </div>
       <div className="container">
         <div className="mt-2">
-          <div className="restfont">1. Testing the website</div>
+          <div className="restfont">1. URL Shortener</div>
           <div className="mt-2 text-center">
-            <a href="www.google.com">
+            <a href="https://devshorty.herokuapp.com/">
               <button type="button" className="btn btn-light mr-1 maincontent">
                 Visit
               </button>
             </a>
-            <a href="www.google.com">
+            <a href="https://github.com/debatoshpm/URL-Shortener">
               <button type="button" className="btn btn-light ml-1 maincontent">
                 Repository
               </button>
