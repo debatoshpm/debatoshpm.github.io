@@ -14,15 +14,15 @@ function Nav() {
   const path = window.location.pathname;
   return (
     <div className="page">
-      <nav id="colorlib-main-nav" role="navigation">
+      <nav id="main-nav" role="navigation">
         <div
-          className="js-colorlib-nav-toggle colorlib-nav-toggle active cross"
+          className="js-nav-toggle nav-toggle active cross"
           onClick={onCross}
         >
           <i></i>
         </div>
-        <div className="js-fullheight colorlib-table" style={style}>
-          <div className="colorlib-table-cell js-fullheight" style={style}>
+        <div className="js-fullheight table" style={style}>
+          <div className="table-cell js-fullheight" style={style}>
             <div className="row no-gutters">
               <div className="col-md-12 text-center">
                 <h1 className="mb-4">

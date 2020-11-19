@@ -15,14 +15,14 @@ function Navbar() {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="colorlib-navbar-brand">
-              <div className="colorlib-logo introname">
+            <div className="navbar-brand">
+              <div className="logo introname">
                 {width >= 436 && "Debatosh Pal Majumder"}
                 {width < 436 && "DPM"}
               </div>
             </div>
             <div
-              className="pt-2 js-colorlib-nav-toggle colorlib-nav-toggle plus"
+              className="pt-2 js-nav-toggle nav-toggle plus"
               onClick={onBurger}
             >
               <i></i>
