@@ -26,11 +26,11 @@ function App() {
           </ul>
         </div>
         <Switch>
-          <Route exact path="/portfolio" component={Intro} />
-          <Route exact path="/porfolio/about" component={About} />
-          <Route exact path="/porfolio/skill" component={Skill} />
-          <Route exact path="/porfolio/project" component={Project} />
-          <Route exact path="/porfolio/contact" component={Contact} />
+          <Route exact path="/" component={Intro} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/skill" component={Skill} />
+          <Route exact path="/project" component={Project} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </Router>
     </React.Fragment>

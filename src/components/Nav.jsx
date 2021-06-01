@@ -29,28 +29,28 @@ function Nav() {
                   <div className="logo">Debatosh Pal Majumder</div>
                 </h1>
                 <ul>
-                  <li className={path === "/portfolio/" ? "active" : ""}>
-                    <Link to="/portfolio/">
+                  <li className={path === "/" ? "active" : ""}>
+                    <Link to="/">
                       <span>Home</span>
                     </Link>
                   </li>
-                  <li className={path === "/portfolio/about" ? "active" : ""}>
-                    <Link to="/portfolio/about">
+                  <li className={path === "/about" ? "active" : ""}>
+                    <Link to="/about">
                       <span>About</span>
                     </Link>
                   </li>
-                  <li className={path === "/portfolio/project" ? "active" : ""}>
-                    <Link to="/portfolio/project">
+                  <li className={path === "/project" ? "active" : ""}>
+                    <Link to="/project">
                       <span>Projects</span>
                     </Link>
                   </li>
-                  <li className={path === "/portfolio/skill" ? "active" : ""}>
-                    <Link to="/portfolio/skill">
+                  <li className={path === "/skill" ? "active" : ""}>
+                    <Link to="/skill">
                       <span>Skills</span>
                     </Link>
                   </li>
-                  <li className={path === "/portfolio/contact" ? "active" : ""}>
-                    <Link to="/portfolio/contact">
+                  <li className={path === "/contact" ? "active" : ""}>
+                    <Link to="/contact">
                       <span>Contact</span>
                     </Link>
                   </li>
