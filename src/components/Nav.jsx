@@ -30,27 +30,27 @@ function Nav() {
                 </h1>
                 <ul>
                   <li className={path === "/" ? "active" : ""}>
-                    <Link to="/">
+                    <Link to="/portfolio/">
                       <span>Home</span>
                     </Link>
                   </li>
                   <li className={path === "/about" ? "active" : ""}>
-                    <Link to="/about">
+                    <Link to="/portfolio/about">
                       <span>About</span>
                     </Link>
                   </li>
                   <li className={path === "/project" ? "active" : ""}>
-                    <Link to="/project">
+                    <Link to="/portfolio/project">
                       <span>Projects</span>
                     </Link>
                   </li>
                   <li className={path === "/skill" ? "active" : ""}>
-                    <Link to="/skill">
+                    <Link to="/portfolio/skill">
                       <span>Skills</span>
                     </Link>
                   </li>
                   <li className={path === "/contact" ? "active" : ""}>
-                    <Link to="/contact">
+                    <Link to="/portfolio/contact">
                       <span>Contact</span>
                     </Link>
                   </li>
