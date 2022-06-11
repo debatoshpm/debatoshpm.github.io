@@ -8,9 +8,9 @@ class Intro extends Component {
   componentDidMount() {
     const strings = [
       "Full Stack Developer",
+      "Blockchain Web3 Developer",
+      "DevOPs Enthusiast",
       "Coder",
-      "AI ML Enthusiast",
-      "Cloud Enthusiast",
     ];
     const options = {
       strings: strings,

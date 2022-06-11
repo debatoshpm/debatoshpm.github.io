@@ -18,31 +18,33 @@ class Skill extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-4 mt-4">
-              <Meter data={{ value: 70 }} />
+              <Meter data={{ value: 60 }} />
               <p className="text-center restfont mt-2 mb-2">C/C++</p>
             </div>
             <div className="col-md-4 mt-4">
-              <Meter data={{ value: 90 }} />
+              <Meter data={{ value: 60 }} />
               <p className="text-center restfont mt-2 mb-2">
                 HTML CSS SASS JS PHP MySQL
               </p>
             </div>
             <div className="col-md-4 mt-4">
-              <Meter data={{ value: 80 }} />
-              <p className="text-center restfont mt-2 mb-2">MERN</p>
-            </div>
-            <div className="col-md-4 mt-4">
-              <Meter data={{ value: 80 }} />
+              <Meter data={{ value: 60 }} />
               <p className="text-center restfont mt-2 mb-2">
-                Bootstrap MaterialUI
+                MERN (CRA & Next.js)
               </p>
             </div>
             <div className="col-md-4 mt-4">
-              <Meter data={{ value: 80 }} />
-              <p className="text-center restfont mt-2 mb-2">Python</p>
+              <Meter data={{ value: 60 }} />
+              <p className="text-center restfont mt-2 mb-2">
+                Blockchain Web3 with Solidity
+              </p>
             </div>
             <div className="col-md-4 mt-4">
               <Meter data={{ value: 60 }} />
+              <p className="text-center restfont mt-2 mb-2">Python</p>
+            </div>
+            <div className="col-md-4 mt-4">
+              <Meter data={{ value: 50 }} />
               <p className="text-center restfont mt-2 mb-2">
                 SciPy ScikitLearn OpenCV
               </p>
