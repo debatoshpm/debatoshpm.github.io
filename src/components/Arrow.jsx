@@ -4,7 +4,7 @@ import "./Arrow.css";
 
 export default function Arrow(props) {
   return (
-    <div id="button" className="hidden">
+    <div id="button">
       <Link to={props.value.to} className="animated-arrow">
         <span className="the-arrow -left">
           <span className="shaft"></span>

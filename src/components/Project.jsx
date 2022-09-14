@@ -102,6 +102,9 @@ export default function Project() {
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
       <Arrow value={{ to: "/skill" }} />
     </React.Fragment>
   );
