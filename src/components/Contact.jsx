@@ -27,7 +27,11 @@ function Contact() {
         </a>
       </div>
       <div className="text-center">
-        <a href="/resume.pdf" target="_blank">
+        <a
+          href="https://drive.google.com/file/d/15EV6gZyggzot184r22is05bsmgxsOUbV/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button
             type="button"
             className="btn btn-light maincontent restfont text-dark"
